@@ -1,0 +1,3 @@
+[console_scripts]
+microannot = microannot.cli:main
+microannot-funannotate = microannot.funannotate.shunt:main
