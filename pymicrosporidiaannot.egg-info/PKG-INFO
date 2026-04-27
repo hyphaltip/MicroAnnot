@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: pymicrosporidiaannot
+Version: 1.0.0
+Summary: pyMicrosporidiaAnnot – microsporidia genome annotation pipeline (Python port of microannot.pl)
+License: MIT
+Keywords: bioinformatics,genomics,microsporidia,annotation,gene-prediction
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: biopython>=1.81
+Provides-Extra: dev
+Requires-Dist: pytest>=7; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: flake8; extra == "dev"

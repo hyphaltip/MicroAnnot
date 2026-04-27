@@ -1,11 +1,11 @@
 """
-Unit tests for microannot.orf.extract_orfs.
+Unit tests for ``pymicrosporidiaannot``.orf.extract_orfs.
 """
 
 import os
 import tempfile
 import pytest
-from microannot.orf import extract_orfs
+from pymicrosporidiaannot.orf import extract_orfs
 
 
 # ---------------------------------------------------------------------------

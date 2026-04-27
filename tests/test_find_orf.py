@@ -1,9 +1,9 @@
 """
-Unit tests for microannot.find_orf.find_orf.
+Unit tests for ``pymicrosporidiaannot``.find_orf.find_orf.
 """
 
 import pytest
-from microannot.find_orf import find_orf
+from pymicrosporidiaannot.find_orf import find_orf
 
 
 # ---------------------------------------------------------------------------

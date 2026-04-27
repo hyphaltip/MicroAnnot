@@ -1,9 +1,9 @@
 """
-Unit tests for microannot.signal.check_signal.
+Unit tests for ``pymicrosporidiaannot``.signal.check_signal.
 """
 
 import pytest
-from microannot.signal import check_signal
+from pymicrosporidiaannot.signal import check_signal
 
 
 class TestCheckSignalEmpty:

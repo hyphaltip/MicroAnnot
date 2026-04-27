@@ -3,9 +3,9 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "microannot"
+name = "pymicrosporidiaannot"
 version = "1.0.0"
-description = "Microsporidia genome annotation pipeline – Python port of microannot.pl"
+description = "pyMicrosporidiaAnnot – microsporidia genome annotation pipeline (Python port of microannot.pl)"
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
@@ -31,12 +31,12 @@ dev = [
 ]
 
 [project.scripts]
-microannot              = "microannot.cli:main"
-microannot-funannotate  = "microannot.funannotate.shunt:main"
+pymicrosporidiaannot              = "pymicrosporidiaannot.cli:main"
+pymicrosporidiaannot-funannotate  = "pymicrosporidiaannot.funannotate.shunt:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["microannot*"]
+include = ["pymicrosporidiaannot*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
