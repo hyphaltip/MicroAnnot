@@ -1,0 +1,6 @@
+biopython>=1.81
+
+[dev]
+pytest>=7
+pytest-cov
+flake8

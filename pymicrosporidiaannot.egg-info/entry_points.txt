@@ -1,0 +1,3 @@
+[console_scripts]
+pymicrosporidiaannot = pymicrosporidiaannot.cli:main
+pymicrosporidiaannot-funannotate = pymicrosporidiaannot.funannotate.shunt:main
